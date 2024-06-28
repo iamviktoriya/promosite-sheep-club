@@ -1,0 +1,86 @@
+.block404{
+    width: 94.44vw;
+    height: 45.43vw;
+    position: relative;
+    top: 1vw;
+    left: 3.5vw;
+    background-image: url(../img/block404_1.svg);
+    background-size: 100%;
+    display: flex;
+}
+
+.menu_404 {
+    width: 16.74vw;
+    height: 2.85vw;
+    left: 41.60vw;
+    top: 0.5vw;
+    position: relative;
+}
+.text_404{
+    font-size: 20.49vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8B85FF;
+    stroke: #8B85FF;
+    stroke-width: 0.07vw;
+    position: absolute;
+    top: 8vw;
+    left: 31vw;
+}
+.text2_404{
+    width: 35.90vw;
+    font-size: 2.78vw;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4B4B4B;
+    position: absolute;
+    top: 30vw;
+    left: 32vw;
+}
+
+/* адаптив */
+@media screen and (max-width: 414px){
+    .block404{
+        width: 94.44vw;
+        height: 155.43vw;
+        position: relative;
+        top: 1vw;
+        left: 3.5vw;
+        background-image: url(../img/block404_2.svg);
+        background-size: 100%;
+        display: flex;
+    }
+    
+    .menu_404 {
+        width: 22.74vw;
+        height: 5.85vw;
+        left: 41.60vw;
+        top: 0.5vw;
+        position: relative;
+    }
+    .text_404{
+        font-size: 37.92vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #8B85FF;
+        stroke: #8B85FF;
+        stroke-width: 0.07vw;
+        position: absolute;
+        top: 29vw;
+        left: 15vw;
+    }
+    .text2_404{
+        width: 62vw;
+        font-size: 5.07vw;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #4B4B4B;
+        position: absolute;
+        top: 68vw;
+        left: 18vw;
+    }
+}
